@@ -1,0 +1,83 @@
+
+
+.app {
+    font-family: sans-serif;
+    color: var(--cl-first);
+    /* border: 2px solid red; */
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 15px;
+    /* overflow: hidden; */
+}
+
+.cate h2 {
+    font-family: var(--font-three);
+    background: var(--cl-second);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid red; */
+
+}
+
+#category-list {
+    padding: 5px;
+}
+
+.sport-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 570px;
+    /* border: 2px solid rgb(13, 255, 0); */
+    /* overflow: hidden; */
+}
+
+.select-option{
+    background-color: var(--bg-second);
+    outline: none;
+    color: var(--cl-first);
+    font-family: var(--font-two);
+    border: none;
+    width: 100px;
+    font-size: 0.7rem;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    /* border: 2px solid blue; */
+    width: 100%;
+    font-family: var(--font-two);
+    font-size: 0.7rem;
+    
+}
+
+.pagination button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-family: var(--font-three);
+    background-color: var(--cl-first);
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+}
+
+.pagination span {
+    line-height: 30px;
+    background: var(--cl-second);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+

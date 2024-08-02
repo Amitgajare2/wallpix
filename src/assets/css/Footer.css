@@ -1,0 +1,20 @@
+
+.footer{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer{
+    width: 80%;
+    height: 50px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    background-color: var(--bg-second);
+    font-family: var( --font-two);
+    color: var(--cl-first);
+    justify-content: center;
+    align-items: center;
+}

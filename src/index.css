@@ -1,0 +1,35 @@
+:root {
+  --bg-main: #090909;
+  --bg-second: #191a20;
+  --bg-third: #121213;
+
+  --cl-first: #CDCFCE;
+  --cl-second: linear-gradient(to right, #ED2832, #791716);
+
+  --font-one: "Archivo Black", sans-serif;
+  --font-two: "Jost", sans-serif;
+  --font-three: "Bebas Neue", sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none; 
+}
+
+body{
+  background-color: var(--bg-main);
+}
+
+.flex{
+  display: flex;
+}
+
+/* mobile */
+@media screen and (min-width:500px) {
+  #root{
+    display: none;
+  }
+}
